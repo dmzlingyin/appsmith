@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JS_Reset",
+    "pageId": "job",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "job_JS_Reset",
+  "deleted": false,
+  "gitSyncId": "63d35a84516f8c24ae465eec_63d7841e410af14a2c68a307"
+}

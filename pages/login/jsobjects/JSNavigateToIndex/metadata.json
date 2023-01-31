@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSNavigateToIndex",
+    "pageId": "login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "login_JSNavigateToIndex",
+  "deleted": false,
+  "gitSyncId": "63d35a84516f8c24ae465eec_63d4dd72b8b46679d190c014"
+}
