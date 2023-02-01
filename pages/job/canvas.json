@@ -1076,10 +1076,20 @@
                         },
                         {
                           "key": "tableData"
+                        },
+                        {
+                          "key": "primaryColumns.customColumn9.buttonColor"
+                        },
+                        {
+                          "key": "primaryColumns.customColumn9.borderRadius"
+                        },
+                        {
+                          "key": "primaryColumns.customColumn9.boxShadow"
                         }
                       ],
                       "leftColumn": 0,
                       "delimiter": ",",
+                      "variant": "VARIANT3",
                       "defaultSelectedRowIndex": 0,
                       "showInlineEditingOptionDropdown": true,
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1128,6 +1138,7 @@
                         "customColumn2",
                         "customColumn7",
                         "customColumn8",
+                        "customColumn9",
                         "userId",
                         "categoryId",
                         "packageId",
@@ -1156,6 +1167,7 @@
                           "key": "primaryColumns.EditActions1.isDiscardDisabled"
                         }
                       ],
+                      "compactMode": "DEFAULT",
                       "displayName": "Table",
                       "bottomRow": 86,
                       "columnWidthMap": {
@@ -1176,6 +1188,9 @@
                         },
                         {
                           "key": "onPageSizeChange"
+                        },
+                        {
+                          "key": "primaryColumns.customColumn9.onClick"
                         }
                       ],
                       "borderWidth": "1",
@@ -1206,7 +1221,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "userId": {
                           "allowCellWrapping": false,
@@ -1234,7 +1249,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userId\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "categoryId": {
                           "allowCellWrapping": false,
@@ -1262,7 +1277,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"categoryId\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "packageId": {
                           "allowCellWrapping": false,
@@ -1290,7 +1305,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"packageId\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "bonus": {
                           "allowCellWrapping": false,
@@ -1318,7 +1333,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bonus\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "email": {
                           "allowCellWrapping": false,
@@ -1346,7 +1361,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "size": {
                           "allowCellWrapping": false,
@@ -1374,7 +1389,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"size\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "payType": {
                           "allowCellWrapping": false,
@@ -1402,7 +1417,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"W_PayType\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "payId": {
                           "allowCellWrapping": false,
@@ -1430,7 +1445,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"payId\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "status": {
                           "allowCellWrapping": false,
@@ -1458,7 +1473,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "avatarCount": {
                           "allowCellWrapping": false,
@@ -1486,7 +1501,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"avatarCount\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "unlockCount": {
                           "allowCellWrapping": false,
@@ -1514,7 +1529,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"unlockCount\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "avatars": {
                           "allowCellWrapping": false,
@@ -1542,7 +1557,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"avatars\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "photos": {
                           "allowCellWrapping": false,
@@ -1570,7 +1585,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"photos\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "source": {
                           "allowCellWrapping": false,
@@ -1598,7 +1613,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"W_Source\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "version": {
                           "allowCellWrapping": false,
@@ -1626,7 +1641,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"version\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "createdAt": {
                           "allowCellWrapping": false,
@@ -1654,7 +1669,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "updatedAt": {
                           "allowCellWrapping": false,
@@ -1682,7 +1697,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedAt\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fff"
                         },
                         "customColumn1": {
                           "allowCellWrapping": false,
@@ -1691,7 +1706,7 @@
                           "originalId": "customColumn1",
                           "id": "customColumn1",
                           "alias": "#",
-                          "horizontalAlignment": "RIGHT",
+                          "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
                           "textSize": "0.875rem",
@@ -1706,10 +1721,11 @@
                           "label": "#",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentIndex+1))}}",
+                          "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentIndex))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "customColumn2": {
                           "allowCellWrapping": false,
@@ -1736,7 +1752,8 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.unlockCount + '/' + currentRow.avatarCount))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "customColumn3": {
                           "allowCellWrapping": false,
@@ -1763,7 +1780,8 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "EditActions1": {
                           "allowCellWrapping": false,
@@ -1800,7 +1818,8 @@
                           "discardBorderRadius": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
                           "discardButtonVariant": "TERTIARY",
                           "isSaveDisabled": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( !jobTable.updatedRowIndices.includes(currentIndex)))}}",
-                          "isDiscardDisabled": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( !jobTable.updatedRowIndices.includes(currentIndex)))}}"
+                          "isDiscardDisabled": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( !jobTable.updatedRowIndices.includes(currentIndex)))}}",
+                          "cellBackground": "#fff"
                         },
                         "customColumn4": {
                           "allowCellWrapping": false,
@@ -1827,7 +1846,8 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"packageId\"]))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "customColumn5": {
                           "allowCellWrapping": false,
@@ -1854,7 +1874,8 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"payType\"]))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "customColumn6": {
                           "allowCellWrapping": false,
@@ -1881,7 +1902,8 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"source\"]))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "customColumn7": {
                           "allowCellWrapping": false,
@@ -1908,7 +1930,8 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
                         },
                         "customColumn8": {
                           "allowCellWrapping": false,
@@ -1935,10 +1958,45 @@
                           "computedValue": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "labelColor": "#FFFFFF",
+                          "cellBackground": "#fff"
+                        },
+                        "customColumn9": {
+                          "allowCellWrapping": false,
+                          "index": 10,
+                          "width": 150,
+                          "originalId": "customColumn9",
+                          "id": "customColumn9",
+                          "alias": "查看",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "button",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": true,
+                          "label": "查看",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "",
+                          "validation": {},
+                          "buttonStyle": "rgb(3, 179, 101)",
+                          "labelColor": "#FFFFFF",
+                          "buttonColor": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                          "borderRadius": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                          "boxShadow": "{{jobTable.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+                          "customAlias": "",
+                          "buttonLabel": "操作",
+                          "onClick": "{{navigateTo('detail',{\"id\": jobTable.selectedRow.任务ID}, 'SAME_WINDOW')}}",
+                          "cellBackground": "#fff"
                         }
                       },
-                      "onRowSelected": "{{navigateTo('detail',{\"id\": jobTable.selectedRow.任务ID}, 'SAME_WINDOW')}}",
+                      "onRowSelected": "",
                       "key": "0fxhuui6bp",
                       "isDeprecated": false,
                       "rightColumn": 64,
@@ -1953,6 +2011,7 @@
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": false,
                       "isVisiblePagination": true,
+                      "cellBackground": "#fff",
                       "verticalAlignment": "CENTER"
                     }
                   ],

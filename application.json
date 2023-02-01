@@ -21,7 +21,7 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#F5D1D1",
-  "icon": "diamond",
+  "icon": "bag",
   "unpublishedAppLayout": {
     "type": "FLUID"
   },
@@ -35,7 +35,7 @@
   "embedSetting": {
     "height": "720px",
     "width": "1024px",
-    "showNavigationBar": false
+    "showNavigationBar": true
   },
   "isManualUpdate": false,
   "deleted": false
